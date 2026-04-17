@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Call It",
+    "slug": "call-it",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "callit",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#002554"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.callit.golf",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#002554"
+      },
+      "package": "com.callit.golf"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-apple-authentication"
+    ]
+  }
+}
