@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/sail_/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/19f6d6c8-a89b-46fc-853f-2380413d9146/11e46942-34e7-4c25-909a-6fea4cbc8c08/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\sail_\\\\Downloads\\\\golf_app_briefing_v3.docx\" -o output.md)",
+      "Bash(python \"C:\\\\Users\\\\sail_\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\19f6d6c8-a89b-46fc-853f-2380413d9146\\\\11e46942-34e7-4c25-909a-6fea4cbc8c08\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\sail_\\\\Downloads\\\\golf_app_briefing_v3.docx\" \"C:\\\\Users\\\\sail_\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\19f6d6c8-a89b-46fc-853f-2380413d9146\\\\11e46942-34e7-4c25-909a-6fea4cbc8c08\\\\skills\\\\docx\\\\unpacked_briefing\")",
+      "Bash(pip install:*)",
+      "Bash(npm install:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx create-expo-app@latest mobile --template blank-typescript)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''main'''',''''not set''''\\)\\); print\\(d.get\\(''''expo'''',{}\\).get\\(''''scheme'''',''''no scheme''''\\)\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(npx expo:*)"
+    ]
+  }
+}

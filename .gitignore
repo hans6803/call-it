@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Expo
+mobile/.expo/
+mobile/dist/
+
+# Environment — never commit secrets
+mobile/.env
+mobile/.env.local
+*.env
+
+# Build outputs
+mobile/android/
+mobile/ios/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Preview / mockup build artefacts
+preview-app/node_modules/
+preview-app/dist/
+mockups/node_modules/
