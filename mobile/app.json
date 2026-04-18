@@ -29,6 +29,11 @@
       "expo-router",
       "expo-location",
       "expo-apple-authentication"
-    ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://woswoqlsgnnjhqlppuok.supabase.co",
+      "supabaseAnonKey": "sb_publishable_4XE-f2e7t2iE3QNf-ETung_7klHud1-"
+    }
   }
 }
+
